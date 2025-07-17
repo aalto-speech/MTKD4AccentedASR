@@ -38,7 +38,6 @@
 
 <br><br>
 ## 🚀 Usage
-⚠️ Please ensure that all file paths in the code are correctly set according to your local machine before running any scripts. ⚠️
 
 #### 🪄 Extract logits
 ```
