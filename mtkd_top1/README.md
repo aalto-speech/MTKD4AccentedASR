@@ -1,5 +1,5 @@
 # MTKD_top1
-A variant of **Multi-Teacher Knowledge Distillation (MTKD)** where **only the best-aligned (Top-1) teacher model** is used to guide the student model. The approach uses **meta-learned objecctive adapter** to dynamically balance **CTC loss** and **KL divergence** during training.
+A variant of Multi-Teacher Knowledge Distillation (MTKD) that leverages only the top-1 (most aligned) teacher model to guide the student. This method employs the **neural teacher mixer** to assess and weight the influence of each teacher, selecting the one with the highest contribution. Additionally, it integrates the **meta-learned objective adapter** to dynamically balance the CTC loss and KL divergence during training, ensuring effective and adaptive supervision.
 
 
 ## 🚀 How to Train?
@@ -24,22 +24,9 @@ python main.py \\
   --TEST_ACCENT "Canadian" \\
   --TRAINING 0
 ```
-The script will:
-- Load the saved checkpoint
-- Evaluate on the specified test set
-- Print WER, CER
-- Save predictions to CSV
-
-
-## 🧠 Model Overview
-- Backbone: `facebook/wav2vec2-base-960h`
-- Loss Function: Combination of CTC + KL-divergence
-- Optimizer: AdamW
-- Scheduler: Linear warmup and decay
 
 
 ## 🛠️ Customization
-Available accents:
 - --TRAIN_ACCENT: `American`, `Canadian`, `Indian`, `Korean`, `Russian`, `British`, `Chinese`, `Japanese`, `Portuguese`, `Spanish`, `AESRC200H`, `EDACCdevel`, `AESRC200H+EDACCdevel`
 - --DEVEL_ACCENT: `American`, `Canadian`, `Indian`, `Korean`, `Russian`, `British`, `Chinese`, `Japanese`, `Portuguese`, `Spanish`
 - --TEST_ACCENT: `American`, `Canadian`, `Indian`, `Korean`, `Russian`, `British`, `Chinese`, `Japanese`, `Portuguese`, `Spanish`, `AESRC20H`, `AESRC10Accents`, `AESRC10Accents+AESRC20H`, `EDACCtest`
