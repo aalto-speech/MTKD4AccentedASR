@@ -38,6 +38,7 @@
 
 <br><br>
 ## 🚀 Usage
+⚠️ Please ensure that all file paths in the code are correctly set according to your local machine before running any scripts. ⚠️
 
 #### 🪄 Extract logits
 ```
@@ -98,7 +99,7 @@ python ./mtkd_avg/main.py \\
   --TRAINING 0
 ```
 
-
+<br> <br>
 ## 🛠️ Customization
 - --TRAIN_ACCENT: `American`, `Canadian`, `Indian`, `Korean`, `Russian`, `British`, `Chinese`, `Japanese`, `Portuguese`, `Spanish`, `AESRC200H`, `EDACCdevel`, `AESRC200H+EDACCdevel`
 - --DEVEL_ACCENT: `American`, `Canadian`, `Indian`, `Korean`, `Russian`, `British`, `Chinese`, `Japanese`, `Portuguese`, `Spanish`
@@ -114,10 +115,22 @@ python ./mtkd_avg/main.py \\
 - --BATCH_SIZE: **Powers of Two**: `z = 2ᵏ where k ∈ ℤ, k ≥ 0`
 - --LEARNING_RATE: **Positive Reals**: `x ∈ ℝ, x > 0.0`
 
+<br> <br>
+## 📚 Citation
+**Publication I**
+```bibtex
+@article{bijoy2025multi,
+  title={Multi-Teacher Language-Aware Knowledge Distillation for Multilingual Speech Emotion Recognition},
+  author={Bijoy, Mehedi Hasan and Porjazovski, Dejan and Gr{\'o}sz, Tam{\'a}s and Kurimo, Mikko},
+  journal={arXiv preprint arXiv:2506.08717},
+  year={2025}
+}
+```
 
-
-
-
+**Publication II**
+```bibtex
+...
+```
 
 
 
