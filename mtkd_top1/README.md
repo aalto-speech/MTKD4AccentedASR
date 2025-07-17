@@ -1,5 +1,5 @@
 # MTKD_top1
-A variant of Multi-Teacher Knowledge Distillation (MTKD) that leverages only the top-1 (most aligned) teacher model to guide the student. This method employs the **neural teacher mixer** to assess and weight the influence of each teacher, selecting the one with the highest contribution. Additionally, it integrates the **meta-learned objective adapter** to dynamically balance the CTC loss and KL divergence during training, ensuring effective and adaptive supervision.
+A variant of Multi-Teacher Knowledge Distillation (MTKD) that leverages only the top-1 (most aligned) teacher model to guide the student. This method employs the **neural teacher mixer** to assess and weight the influence of each teacher, selecting the one with the highest contribution. Additionally, it integrates the **meta-learned objective adapter** to dynamically balance the CTC loss and KL divergence during training.
 
 
 ## 🚀 How to Train?
