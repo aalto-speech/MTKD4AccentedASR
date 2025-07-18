@@ -3,13 +3,13 @@
 
  ## 🚀 How to Train?
 ```
-python main.py \\
-  --TRAIN_ACCENT "American" \\
-  --DEVEL_ACCENT "Indian" \\
-  --TEST_ACCENT "Canadian" \\
-  --BATCH_SIZE 8 \\
-  --LEARNING_RATE 0.0001 \\
-  --N_EPOCHS 20 \\
+python main.py \
+  --TRAIN_ACCENT "American" \
+  --DEVEL_ACCENT "Indian" \
+  --TEST_ACCENT "Canadian" \
+  --BATCH_SIZE 8 \
+  --LEARNING_RATE 0.0001 \
+  --N_EPOCHS 20 \
   --TRAINING 1
 ```
 Or, submit to SLURM with the job script: `sbatch job.slrm`
@@ -17,10 +17,10 @@ Or, submit to SLURM with the job script: `sbatch job.slrm`
 
 ## 🧪 How to Evaluate?
 ```
-python main.py \\
-  --TRAIN_ACCENT "American" \\
-  --DEVEL_ACCENT "Indian" \\
-  --TEST_ACCENT "Canadian" \\
+python main.py \
+  --TRAIN_ACCENT "American" \
+  --DEVEL_ACCENT "Indian" \
+  --TEST_ACCENT "Canadian" \
   --TRAINING 0
 ```
 
