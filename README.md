@@ -80,21 +80,21 @@ python ./ft/main.py \
 🧪 Train and Evaluate the proposed MTKD Method
 
 ```
-python ./mtkd_avg/main.py \\
-  --TRAIN_ACCENT "American" \\
-  --DEVEL_ACCENT "Indian" \\
-  --TEST_ACCENT "Canadian" \\
-  --BATCH_SIZE 8 \\
-  --LEARNING_RATE 0.0001 \\
-  --N_EPOCHS 20 \\
+python ./mtkd_avg/main.py \
+  --TRAIN_ACCENT "American" \
+  --DEVEL_ACCENT "Indian" \
+  --TEST_ACCENT "Canadian" \
+  --BATCH_SIZE 8 \
+  --LEARNING_RATE 0.0001 \
+  --N_EPOCHS 20 \
   --TRAINING 1
 ```
 
 ```
-python ./mtkd_avg/main.py \\
-  --TRAIN_ACCENT "American" \\
-  --DEVEL_ACCENT "Indian" \\
-  --TEST_ACCENT "Canadian" \\
+python ./mtkd_avg/main.py \
+  --TRAIN_ACCENT "American" \
+  --DEVEL_ACCENT "Indian" \
+  --TEST_ACCENT "Canadian" \
   --TRAINING 0
 ```
 
