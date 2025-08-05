@@ -1,6 +1,6 @@
 # Multi-Teacher Knowledge Distillation for Accented English Speech Recognition
 
-- Master's Thesis: 
+- Master's Thesis: [@aaltodoc.aalto.fi](https://aaltodoc.aalto.fi/server/api/core/bitstreams/b72ef146-13dd-4456-979b-b9f8bcf24158/content)
 - Presentation Slides: [./MTKD for AccentedASR.pdf](https://github.com/aalto-speech/MTKD4AccentedASR/blob/main/%5BMaster's%20Thesis%20Presentation%20Slides%5D%20MTKD%20for%20AccentedASR.pdf)
 - Oral Presentation: https://www.youtube.com/watch?v=n5lFmgq_Fy0
 - Publication I `@Interspeech 2025`: https://arxiv.org/abs/2506.08717
