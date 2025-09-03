@@ -118,11 +118,12 @@ python ./mtkd_avg/main.py \
 ## 📚 Citation
 **Publication I**
 ```bibtex
-@article{bijoy2025multi,
-  title={Multi-Teacher Language-Aware Knowledge Distillation for Multilingual Speech Emotion Recognition},
-  author={Bijoy, Mehedi Hasan and Porjazovski, Dejan and Gr{\'o}sz, Tam{\'a}s and Kurimo, Mikko},
-  journal={arXiv preprint arXiv:2506.08717},
-  year={2025}
+@inproceedings{bijoy2025multi,
+  title        = {Multi-Teacher Language-Aware Knowledge Distillation for Multilingual Speech Emotion Recognition},
+  author       = {Bijoy, Mehedi Hasan and Porjazovski, Dejan and Gr{\'o}sz, Tam{\'a}s and Kurimo, Mikko},
+  booktitle    = {Proc. Interspeech 2025},
+  pages        = {146--150},
+  doi          = {10.21437/Interspeech.2025-418},
 }
 ```
 
